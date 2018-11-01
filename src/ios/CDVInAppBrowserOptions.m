@@ -26,8 +26,8 @@
     if (self = [super init]) {
         // default values
         self.usewkwebview = NO;
-        self.location = YES;
-        self.toolbar = YES;
+        self.location = NO;
+        self.toolbar = NO;
         self.closebuttoncaption = nil;
         self.toolbarposition = @"bottom";
         self.cleardata = NO;
